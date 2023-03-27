@@ -7,34 +7,7 @@
     background-color: red;
 }
 
-.disclaimer{
-    background-color: red;
-    color: white;
-    font-weight: bold;
-    padding: 10px;
-    white-space: nowrap;
-    overflow: hidden;
 
-    /* animation properties */
-    -moz-transform: translateX(100%);
-    -webkit-transform: translateX(100%);
-    transform: translateX(100%);
-    animation: my-animation 15s linear infinite;
-}
-  
-  /* for Firefox */
-  @keyframes my-animation {
-    from {
-      -moz-transform: translateX(100%);
-      -webkit-transform: translateX(100%);
-      transform: translateX(100%);
-    }
-    to {
-      -moz-transform: translateX(-100%);
-      -webkit-transform: translateX(-100%);
-      transform: translateX(-100%);
-    }
-}
 
 .header{
     background-color: #4FA537;
